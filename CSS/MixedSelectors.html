@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+
+    <style>
+        /* *{ */
+            /* universal  */
+            /* margin: 0; */
+        /* } */
+        /* p{
+            color: red;
+        } */
+        #fifth,li{
+            /* ekahe fifth id ar li holo tag  */
+            /* 2 tar eki */
+            font-size: 26px;
+            /* default px is 16  */
+        }
+        .holud,.yellow{
+            background-color: yellow;
+            /* ekhane holud ar yellow er same proparty
+            multiple class ba id ekshathe likhte comma use hoy */
+        }
+        .bold{
+            font-weight:800;
+        }
+
+        input[type="password"]{
+            color: red;
+            /* shudhu input dile shob input dhorto
+            type select kore evabe */
+
+        }
+        .css{
+            color: aqua;
+        }
+        .blog{
+            color: bisque;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h3>Explore <span class="css">Mixed</span>  selectors</h3>
+    <!-- ekta line er kichu part span diye select kre class use kora hooice -->
+    
+    <p class="holud">My first line CSS</p>
+    <p class="yellow">My second line CSS</p>
+    <p>My third line CSS</p>
+    <p>My forth line CSS</p>
+    <p id="fifth">My fifh line CSS</p>
+    <p class="yellow">My sixth line CSS</p>
+    <p class="bold">My seventh line CSS</p>
+    <p>My eight line CSS</p>
+
+    <ol>
+       <li>Element selector </li>
+        <li>id Selector</li>
+        <li class="holud">Class Selector</li>
+        <li>Universal Selector</li>
+    </ol>
+
+    <div class="blog">
+        <!-- onekgula different ba same tag ke same class a niye
+        kaj korar joonno
+        shogula eksathe  -->
+        <h1>hello</h1>
+        <p>lorem 10</p>
+    </div>
+
+    <form action="">
+        <input type="text">
+        <input type="password">
+    </form>
+</body>
+</html>
