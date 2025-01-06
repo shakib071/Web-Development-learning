@@ -1,0 +1,20 @@
+.parent {
+    padding: 20px;
+    background-color: blanchedalmond;
+    display: flex;
+    gap: 30px;
+    justify-content: center; /*x axes er center */
+    height: 350px;
+    align-items: center;
+    /* flex-direction: column;*/  /*default row a flex kore */
+    flex-wrap: wrap; /*display er jaygar besi jate na hoy */
+    
+}
+
+.child{
+    border: 2px solid rebeccapurple;
+    background-color: aqua;
+    padding: 20px;
+    font-size: 28px;
+   
+}
