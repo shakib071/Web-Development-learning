@@ -26,7 +26,7 @@ document
           const container = document.getElementById("transection-container");
 
           const div = document.createElement("div");
-div.classList.add("bg-red-400")
+          div.classList.add("bg-red-400")
           div.innerHTML = `
           <h1 class="text-yellow-300">ADDed Money form ${selectedBank}</h1>
           <h3>${amount}</h3> 
