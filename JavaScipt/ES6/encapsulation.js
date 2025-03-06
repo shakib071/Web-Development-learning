@@ -123,5 +123,3 @@ console.log(employee1.getJobTitle());
 // Output: Senior Manager
 
 
-const {x, y, z} = {x: 1, y1: 2, z: 3};
-console.log(x,y,z)
