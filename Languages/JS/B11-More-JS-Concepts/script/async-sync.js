@@ -4,14 +4,14 @@ const loadData = async() => {
         console.log('ami second ')
         
 
-    const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+        const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
         const data = await response.json();
         
         
-    console.log(data)
-    const result = 10 + 10;
-    console.log(result)
-    console.log("ami third")
+        console.log(data)
+        const result = 10 + 10;
+        console.log(result)
+        console.log("ami third")
     }
     catch {
         console.log("error")
